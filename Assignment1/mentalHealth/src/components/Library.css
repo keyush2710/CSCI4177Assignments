@@ -1,0 +1,79 @@
+src/components/Library.css
+.library{
+    margin: 20px;
+    position: relative;
+  }
+  
+  .shareLibBtn {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+  }
+  
+  .emailInput {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .emailInput input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .emailInput button {
+    padding: 5px 10px;
+  }
+  
+  .library h1 {
+    text-align: center;
+  }
+  
+  .resourceItems{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 150px; /* Adjust width as necessary */
+  }
+  
+  .info {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .info p {
+    margin: 5px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #images{
+    width: 150px;
+    height: 150px;
+  }
+  #articles{
+    padding: 40px;
+    padding-bottom:10px;
+  }
+  #videos{
+    padding: 40px;
+    padding-top:10px;
+  }
